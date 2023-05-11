@@ -53,7 +53,7 @@ public class BankServiceImpl implements BankService {
 			return;
 		}
 		if (!account.matches(pattern)) {
-			System.out.println("Account is erreor");
+			System.out.println("Account is error");
 			return;
 		}
 	}

@@ -19,6 +19,7 @@ public class Bank {
 	@Column(name = "amount")
 	private int amount;
 
+	
 		public Bank(String account, String pwd, int amount) {
 			super();
 			this.account = account;
